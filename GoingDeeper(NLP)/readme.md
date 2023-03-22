@@ -6,4 +6,5 @@ GD10 : 한영 번역기 (Transformer)
   - (1) : based model   
   - (2) : adding tunned lr and optimizer as paper  
 
-GD12 : 챗봇 (Transformer)
+GD12 : 챗봇 (Transformer)  
+GD14 : MiniBERT  
