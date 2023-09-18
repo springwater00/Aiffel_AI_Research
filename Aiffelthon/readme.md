@@ -1,15 +1,13 @@
-The SoundSpray project (w/ pretrained CLAP Model)
+# SoundSpray Project (with pretrained CLAP Model)
 
+## Purpose
+The SoundSpray project is based on the CLAP model and aims to classify specific musical instruments within drum sounds.
 
+## Dataset
+We have collected and labeled a dataset consisting of 1440 text-wave pairs of drum sounds. This dataset was meticulously curated for training and evaluation.
 
-** Purpose **  
-CLAP 모델을 base로 하여 Drum의 세부악기를 classification 하는 모델.
-
-** Dataset **  
-자체적으로 수집 및 라벨링을 진행한 드럼소리 관련 1440개의 text - wave pair dataset
-
-** Result **  
-Drum의 세부악기 (clap, hihat, snare, kick, cymbal) classification task; testset 기준 accuracy 0.80
+## Results
+Our model excels in the classification of various drum instruments, including clap, hihat, snare, kick, and cymbal. When evaluated on our test set, it achieved an impressive accuracy of 0.80.
 
 ![workflow](https://github.com/springwater00/Aiffel/blob/main/Aiffelthon/data/workflow.PNG)
 ![basedmodel](https://github.com/springwater00/Aiffel/blob/main/Aiffelthon/data/basemodel.PNG)
